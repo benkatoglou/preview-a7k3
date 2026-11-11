@@ -623,7 +623,7 @@ button { font: inherit; color: inherit; }
 
 .empty { display: grid; gap: 12px; justify-items: start; padding: 48px; background: var(--stone-l); border-radius: 0 28px 0 28px; }
 .empty[hidden] { display: none; }
-.more { display: grid; justify-items: center; gap: 14px; padding-top: 24px; }
+.more { display: flex; justify-items: center; gap: 14px; padding-top: 24px; }
 .more__t { font-size: var(--t-small); color: var(--muted); }
 .more__t b { font-weight: 400; color: var(--ink); }
 .more__bar { width: 220px; flex: none; }
